@@ -14,6 +14,7 @@ class BasketController extends Zend_Controller_Action {
 
     public function getQuoteAction()
     {
-
+        $this->view->title = "Get Quote";
+        $this->view->description = "Get Quote";
     }
 }
