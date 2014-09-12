@@ -12,6 +12,6 @@ class SkuController extends Zend_Controller_Action {
 
     protected function fetchProduct()
     {
-        return array();
+        return array(array());
     }
 }
