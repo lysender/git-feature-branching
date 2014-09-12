@@ -7,6 +7,7 @@ class IndexController extends Zend_Controller_Action {
         $this->view->title = "This is the title";
         $this->view->description = "This is the description";
 
-        $this->heroshot = array();
+        $this->view->heroshot = array();
+        $this->view->featuredMakes = array();
     }
 }
