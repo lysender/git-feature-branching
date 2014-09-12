@@ -9,4 +9,9 @@ class SkuController extends Zend_Controller_Action {
 
         $this->view->product = array('total' => 1000, 'info' => array());
     }
+
+    protected function fetchProduct()
+    {
+        return array();
+    }
 }
